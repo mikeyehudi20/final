@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Slideshow</title>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="swipebox/css/swipebox.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+ <!-- navigation -->
+ <header class="header">
+  
+  <div class="topnav" id="myTopnav">
+  <nav>
+    <a href="index.html" class="active"><img src="images/JuansLogo@2x.jpg"></a>
+
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="About.html">About</a></li>
+      <li><a href="Services.html">Services</a></li>
+      <li><a href="#">Get a Quote</a></li>
+      <li><a href="Contact.html">Contact Us</a></li>
+      <li><a href="#">Blog</a></li>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </ul>
+  
+  </nav>
+  </div>
+</header> 
+
+
+        <!-- main body-->
+  <div class="main-container">
+        <main>
+
+
+      <div class="container">
+        <div class="slideshow">
+          <div class="cycle-slideshow">
+            <img src="images/Gardening-slide-01.png">
+            <img src="images/Gardening-slide-02.png">
+            <img src="images/Gardening-slide-03.png">
+            
+          </div>
+        
+        </div>   
+
+      <article>
+        <h2>Beautiful Landscapes and Gardens Start Here</h2>
+       <div class="imageGroup"><div><img src="images/Services-01.png"></div>
+        <div><img src="images/Services-02.png"></div>
+        <div><img src="images/Services-03.png"></div></div>
+        <p><a href="#">SEE ALL THE SERVICES THAT WE PROVIDE</a></p>
+      </article>
+
+      <article>
+        <h2>Professional Garden Maintenance</h2>
+        <p>The art of maintaining your yard, garden, or other areas outside of your home is known as landscape or garden maintenance. This can be done at a residential location, or at an institutional or commercial setting. This may involve maintaining the health of the lawn, garden, or flowers in the area, allowing everything to look healthy and pristine. Although this is something that the average person can do with a typical residential yard, if they have a front and backyard, with a significant amount of grass, trees, and foliage, doing this on their own may not be possible. That’s why it is important to find a reputable landscaper that may be able to help with this type of outdoor maintenance. Here are a few tips on finding reputable landscape maintenance services that will have the experience necessary to handle both residential and commercial landscaping projects in a professional manner.</p>
+        <p><a href="#">READ OUR REVIEWS ON YELP</a></p>
+      </article>
+
+      <article>
+        <h2>Our Clients's Feedback is Very Important to Us</h2>
+        <p>"Juan and his crew just finished landscaping our back yard and we couldn't be more pleased. He was pleasant to work with, listened to what we wanted, but came up with suggestions when we needed direction. He and his crew show up on time, work hard all day, and then keep the site clean." <i>-Julia from San Mateo</i></p>
+        <p><a href="#">FREE CONSULTATION AND ESTIMATE</a></p>
+      </article>
+    </main>
+  </div>
+  <footer>
+    <p>&copy; Copyright Information
+      <p>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="https://malsup.github.io/jquery.cycle2.js"></script>
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
+
+</body>
+
+</html>
